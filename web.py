@@ -4,6 +4,10 @@ import functions
 
 todos = functions.get_todos()
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> dfdbadb (initial commit)
 def add_todo():
     todo = st.session_state["new_todo"] + '\n' #grabs todo entered into text box and puts into session state type (looks like dict)
     todos.append(todo)
